@@ -26,6 +26,6 @@ THE SOFTWARE.
   <f:entry title="${%Files to fingerprint}"
     description="${%description('https://ant.apache.org/manual/Types/fileset.html')}">
     <f:textbox name="targets" value="${instance.targets}"
-               checkUrl="'descriptorByName/Fingerprinter/check?value='+encodeURIComponent(this.value)" />
+               checkUrl="descriptorByName/Fingerprinter/check" checkDependsOn="" />
   </f:entry>
 </j:jelly>
